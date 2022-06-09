@@ -1,0 +1,553 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Course materials &#8212; ReproNim OHBM 2022 Educational Course</title>
+    
+  <link href="_static/css/theme.css" rel="stylesheet">
+  <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="The Publication Exercise for the course" href="exercise.html" />
+    <link rel="prev" title="Outline" href="outline.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="_static/repronim_logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">ReproNim OHBM 2022 Educational Course</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="index.html">
+   Welcome!
+  </a>
+ </li>
+</ul>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="dei.html">
+   Diversity, Equity and Inclusion
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="overview.html">
+   course overview
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="setup.html">
+   Setup for the workshop
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="outline.html">
+   Outline
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Course materials
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="exercise.html">
+   The Publication Exercise for the course
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="CoC.html">
+   Code of Conduct
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/materials.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/ReproNim/OHBMEducation-2022"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/ReproNim/OHBMEducation-2022/issues/new?title=Issue%20on%20page%20%2Fmaterials.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        <a class="edit-button" href="https://github.com/ReproNim/OHBMEducation-2022/edit/jupyter_book/course/materials.md"><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#introduction-to-the-course">
+   Introduction to the course
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#what-is-a-repropub-and-why-would-we-want-one">
+   What is a ReproPub and why would we want one?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#introduction-to-the-publication-you-are-going-to-do">
+   Introduction to the publication you are going to do
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#what-are-containers-in-general">
+   What are containers, in general
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#how-to-make-a-specific-simple-container">
+   How to make a specific “simple container”
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#brief-introduction-to-datalad">
+   Brief introduction to
+   <code class="docutils literal notranslate">
+    <span class="pre">
+     DataLad
+    </span>
+   </code>
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#just-do-it-aka-exercise">
+   “Just do it” aka exercise
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#meta-and-mega-analysis-of-your-results">
+   Meta and mega analysis of your results
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#recap-and-summary">
+   Recap and Summary
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Course materials</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#introduction-to-the-course">
+   Introduction to the course
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#what-is-a-repropub-and-why-would-we-want-one">
+   What is a ReproPub and why would we want one?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#introduction-to-the-publication-you-are-going-to-do">
+   Introduction to the publication you are going to do
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#what-are-containers-in-general">
+   What are containers, in general
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#how-to-make-a-specific-simple-container">
+   How to make a specific “simple container”
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#brief-introduction-to-datalad">
+   Brief introduction to
+   <code class="docutils literal notranslate">
+    <span class="pre">
+     DataLad
+    </span>
+   </code>
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#just-do-it-aka-exercise">
+   “Just do it” aka exercise
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#meta-and-mega-analysis-of-your-results">
+   Meta and mega analysis of your results
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#recap-and-summary">
+   Recap and Summary
+  </a>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            
+              <div>
+                
+  <div class="section" id="course-materials">
+<h1>Course materials<a class="headerlink" href="#course-materials" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="introduction-to-the-course">
+<h2>Introduction to the course<a class="headerlink" href="#introduction-to-the-course" title="Permalink to this headline">¶</a></h2>
+<div class="tabbed-set docutils">
+<input checked="checked" id="d70fa7e3-bb9e-4891-99d8-3eb3b8683638" name="65a07100-09ab-43ca-86c4-7d09ea325214" type="radio">
+</input><label class="tabbed-label" for="d70fa7e3-bb9e-4891-99d8-3eb3b8683638">
+slides</label><div class="tabbed-content docutils">
+<p>Slides will be added here.</p>
+</div>
+<input id="07bf5f13-6290-4527-a80c-1bbb5dd6678a" name="65a07100-09ab-43ca-86c4-7d09ea325214" type="radio">
+</input><label class="tabbed-label" for="07bf5f13-6290-4527-a80c-1bbb5dd6678a">
+recording</label><div class="tabbed-content docutils">
+<p>Recording will be added here.</p>
+</div>
+</div>
+</div>
+<div class="section" id="what-is-a-repropub-and-why-would-we-want-one">
+<h2>What is a ReproPub and why would we want one?<a class="headerlink" href="#what-is-a-repropub-and-why-would-we-want-one" title="Permalink to this headline">¶</a></h2>
+<div class="tabbed-set docutils">
+<input checked="checked" id="ecaee692-5e78-4230-b208-8c3c096d0c46" name="30bc0bed-5dc3-4f59-b1ee-bfb153f0c417" type="radio">
+</input><label class="tabbed-label" for="ecaee692-5e78-4230-b208-8c3c096d0c46">
+slides</label><div class="tabbed-content docutils">
+<p>Slides will be added here.</p>
+</div>
+<input id="84947e51-5c6b-41c7-86be-05b086211d2a" name="30bc0bed-5dc3-4f59-b1ee-bfb153f0c417" type="radio">
+</input><label class="tabbed-label" for="84947e51-5c6b-41c7-86be-05b086211d2a">
+recording</label><div class="tabbed-content docutils">
+<p>Recording will be added here.</p>
+</div>
+</div>
+</div>
+<div class="section" id="introduction-to-the-publication-you-are-going-to-do">
+<h2>Introduction to the publication you are going to do<a class="headerlink" href="#introduction-to-the-publication-you-are-going-to-do" title="Permalink to this headline">¶</a></h2>
+<div class="tabbed-set docutils">
+<input checked="checked" id="86956613-f5cb-4cff-8616-7bc113bd6fdb" name="cc2938b4-ed57-49fe-9b87-3dfbf24578fe" type="radio">
+</input><label class="tabbed-label" for="86956613-f5cb-4cff-8616-7bc113bd6fdb">
+slides</label><div class="tabbed-content docutils">
+<p>Slides will be added here.</p>
+</div>
+<input id="c81b1bf9-2bf1-4241-b917-983d10178e1c" name="cc2938b4-ed57-49fe-9b87-3dfbf24578fe" type="radio">
+</input><label class="tabbed-label" for="c81b1bf9-2bf1-4241-b917-983d10178e1c">
+recording</label><div class="tabbed-content docutils">
+<p>Recording will be added here.</p>
+</div>
+</div>
+</div>
+<div class="section" id="what-are-containers-in-general">
+<h2>What are containers, in general<a class="headerlink" href="#what-are-containers-in-general" title="Permalink to this headline">¶</a></h2>
+<div class="tabbed-set docutils">
+<input checked="checked" id="acef659e-7ba1-43da-84da-1e4db0748e8c" name="57da7df6-49ea-4b94-9baf-c623b500c4d0" type="radio">
+</input><label class="tabbed-label" for="acef659e-7ba1-43da-84da-1e4db0748e8c">
+slides</label><div class="tabbed-content docutils">
+<p>Slides will be added here.</p>
+</div>
+<input id="208da73a-7a8f-4ca4-b446-dfaee402fbd4" name="57da7df6-49ea-4b94-9baf-c623b500c4d0" type="radio">
+</input><label class="tabbed-label" for="208da73a-7a8f-4ca4-b446-dfaee402fbd4">
+recording</label><div class="tabbed-content docutils">
+<p>Recording will be added here.</p>
+</div>
+</div>
+</div>
+<div class="section" id="how-to-make-a-specific-simple-container">
+<h2>How to make a specific “simple container”<a class="headerlink" href="#how-to-make-a-specific-simple-container" title="Permalink to this headline">¶</a></h2>
+<div class="tabbed-set docutils">
+<input checked="checked" id="70742ef4-1239-4646-b88e-9c76eb401fd2" name="16b62368-4a68-4142-803b-da62d95907f6" type="radio">
+</input><label class="tabbed-label" for="70742ef4-1239-4646-b88e-9c76eb401fd2">
+slides</label><div class="tabbed-content docutils">
+<p>Slides will be added here.</p>
+</div>
+<input id="64406ad2-fdaf-48aa-aca3-204fb90e838c" name="16b62368-4a68-4142-803b-da62d95907f6" type="radio">
+</input><label class="tabbed-label" for="64406ad2-fdaf-48aa-aca3-204fb90e838c">
+recording</label><div class="tabbed-content docutils">
+<p>Recording will be added here.</p>
+</div>
+</div>
+</div>
+<div class="section" id="brief-introduction-to-datalad">
+<h2>Brief introduction to <code class="docutils literal notranslate"><span class="pre">DataLad</span></code><a class="headerlink" href="#brief-introduction-to-datalad" title="Permalink to this headline">¶</a></h2>
+<div class="tabbed-set docutils">
+<input checked="checked" id="c25eb38d-02d8-422d-bf2d-fcaea10d4cd9" name="6556ee2e-f736-4339-b158-81275193502e" type="radio">
+</input><label class="tabbed-label" for="c25eb38d-02d8-422d-bf2d-fcaea10d4cd9">
+slides</label><div class="tabbed-content docutils">
+<p>Slides will be added here.</p>
+</div>
+<input id="707067a4-8b29-480d-9884-40fd8746d327" name="6556ee2e-f736-4339-b158-81275193502e" type="radio">
+</input><label class="tabbed-label" for="707067a4-8b29-480d-9884-40fd8746d327">
+recording</label><div class="tabbed-content docutils">
+<p>Recording will be added here.</p>
+</div>
+</div>
+</div>
+<div class="section" id="just-do-it-aka-exercise">
+<h2>“Just do it” aka exercise<a class="headerlink" href="#just-do-it-aka-exercise" title="Permalink to this headline">¶</a></h2>
+<div class="tabbed-set docutils">
+<input checked="checked" id="d168f4a2-6b4d-4456-8010-52928851a12b" name="a531ddb3-b3bb-4158-ba71-ecf668b28e59" type="radio">
+</input><label class="tabbed-label" for="d168f4a2-6b4d-4456-8010-52928851a12b">
+slides</label><div class="tabbed-content docutils">
+<p>Slides will be added here.</p>
+</div>
+<input id="e70f6025-6a9a-4b40-92a2-62507e868df8" name="a531ddb3-b3bb-4158-ba71-ecf668b28e59" type="radio">
+</input><label class="tabbed-label" for="e70f6025-6a9a-4b40-92a2-62507e868df8">
+recording</label><div class="tabbed-content docutils">
+<p>Recording will be added here.</p>
+</div>
+</div>
+</div>
+<div class="section" id="meta-and-mega-analysis-of-your-results">
+<h2>Meta and mega analysis of your results<a class="headerlink" href="#meta-and-mega-analysis-of-your-results" title="Permalink to this headline">¶</a></h2>
+<div class="tabbed-set docutils">
+<input checked="checked" id="c532c8c3-b257-4614-8869-88ff037d3b87" name="005d6d5f-a755-4ca8-986c-a384188ae2b0" type="radio">
+</input><label class="tabbed-label" for="c532c8c3-b257-4614-8869-88ff037d3b87">
+slides</label><div class="tabbed-content docutils">
+<p>Slides will be added here.</p>
+</div>
+<input id="a3ba4424-46f4-4a86-a0d5-97de0610f62a" name="005d6d5f-a755-4ca8-986c-a384188ae2b0" type="radio">
+</input><label class="tabbed-label" for="a3ba4424-46f4-4a86-a0d5-97de0610f62a">
+recording</label><div class="tabbed-content docutils">
+<p>Recording will be added here.</p>
+</div>
+</div>
+</div>
+<div class="section" id="recap-and-summary">
+<h2>Recap and Summary<a class="headerlink" href="#recap-and-summary" title="Permalink to this headline">¶</a></h2>
+<div class="tabbed-set docutils">
+<input checked="checked" id="619e11f1-af0f-41e3-a86f-94c9b642a7c0" name="b224dfdd-75ca-4d6b-809f-b0a6caa46cd0" type="radio">
+</input><label class="tabbed-label" for="619e11f1-af0f-41e3-a86f-94c9b642a7c0">
+slides</label><div class="tabbed-content docutils">
+<p>Slides will be added here.</p>
+</div>
+<input id="a5b7304c-87ea-4726-a704-28d14a139e0a" name="b224dfdd-75ca-4d6b-809f-b0a6caa46cd0" type="radio">
+</input><label class="tabbed-label" for="a5b7304c-87ea-4726-a704-28d14a139e0a">
+recording</label><div class="tabbed-content docutils">
+<p>Recording will be added here.</p>
+</div>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            
+                <!-- Previous / next buttons -->
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="outline.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Outline</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="exercise.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">The Publication Exercise for the course</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            
+        </div>
+    </div>
+    <footer class="footer">
+  <p>
+    
+      By ReproNim<br/>
+    
+        &copy; Copyright 2022.<br/>
+  </p>
+</footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+
+  </body>
+</html>
